@@ -29,7 +29,4 @@ class BlankFragment : Fragment() {
             (activity as MainActivity).passData(binding.editText.text.toString())
         }
     }
-
-
-
 }
