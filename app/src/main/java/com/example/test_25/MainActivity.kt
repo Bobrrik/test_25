@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
     }
     fun passData(editext : String) {
         val bundle= Bundle()
-        bundle.putString("imput",editext)
+        bundle.putString("input",editext)
 
         val frag2 =BlankFragment2()
         frag2.arguments = bundle
